@@ -1,0 +1,30 @@
+@media (min-width: 1025px){
+.main-header {
+  box-sizing: border-box;
+  min-width: 83vw;
+  height: 65px;
+  margin-left: 17vw;
+  padding: 5px 180px;
+}
+#burger-menu-container{
+  display: none;
+}
+.header-title{
+  font-size: 28px;
+  margin-left: 3px;
+}
+.header-logos-container{
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  margin: 0 3px;
+}
+.header-logo{
+  height: 21px;
+  width: 21px;
+}
+.header-logo-span{
+  top: 9px;
+  right: 6px;
+}
+}

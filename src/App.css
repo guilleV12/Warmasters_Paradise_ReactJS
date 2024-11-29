@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  height: 100%;
+  background-color: #9B7EBD;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  main {
+    width: 100%;
+    padding: 70px 61px 20px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  main {
+    width: 100%;
+    padding: 90px 100px 30px;
+  }
+}
+@media (min-width: 1025px) {
+  main {
+    width: 83vw;
+    margin-left: 17vw;
+    padding: 95px 187px 20px;
+  }
+}

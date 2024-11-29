@@ -1,0 +1,26 @@
+@media (min-width: 320px) and (max-width: 480px) {
+.main-header {
+  width: 100%; /* Ocupa todo el ancho */
+  padding: 10px 20px; /* Reduce el padding */
+  height: 50px; /* Permite flexibilidad en la altura */
+  align-items: center;
+}
+.header-title{
+  font-size: 20px;
+  margin-left: 2px;
+}
+.header-logos-container{
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  margin: 0 2px;
+}
+.header-logo{
+  height: 18px;
+  width: 18px;
+}
+.header-logo-span{
+  top: 5px;
+  right: 3px;
+}
+}

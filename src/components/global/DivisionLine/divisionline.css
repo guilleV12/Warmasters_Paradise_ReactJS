@@ -1,0 +1,14 @@
+.division-line-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+.division-line{
+  width: 100%;
+  height: 0.8px;
+  border: none;
+  background-color: #d4bee457;
+  color: #d4bee457;
+  margin: 15px 0; 
+}

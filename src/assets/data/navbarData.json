@@ -1,0 +1,15 @@
+{
+  "categories": [
+    { "icon": "/images/todos.png", "name": "Todos" },
+    { "icon": "/images/sports.png", "name": "Deportes" },
+    { "icon": "/images/accion.png", "name": "Accion" },
+    { "icon": "/images/adventure.png", "name": "Aventura" }
+  ],
+  "more": [
+    { "icon": "/images/paymethod.png", "name": "Metodos de pago" },
+    { "icon": "/images/brands.png", "name": "Patrocinadores" }
+  ],
+  "home": [
+    { "icon": "/images/home.png", "name": "Inicio" }
+  ]
+}

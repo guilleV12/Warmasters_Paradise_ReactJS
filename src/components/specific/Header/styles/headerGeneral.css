@@ -1,0 +1,82 @@
+/* Generales */
+.main-header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: #9B7EBD;
+  border-bottom: 2px solid #D4BEE4;
+  box-shadow: 0 0 20px rgb(68, 68, 68);
+  box-sizing: border-box;
+}
+.header-left-container{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.header-right-container{
+  height: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+}
+#menu-responsive{
+  display: block;
+}
+.header-title{
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: white;
+}
+.header-logos-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(107, 89, 127, 0.886);
+  position: relative;
+  cursor: pointer;
+}
+.header-logo{
+  object-fit: contain;
+  object-position: center;
+  filter: invert(1);
+}
+.header-logo-span{
+  position: absolute;
+  font-weight: 500;
+  color: white;
+}
+.header-logo-tooltip{
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: -45px; /* Por encima del botón */
+  right: -70px;
+  transform: translateX(-50%);
+  background-color: #3B1E54; /* Color de tu paleta */
+  color: #EEEEEE;
+  text-align: left;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  width: 150px;
+  height: fit-content;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.header-logos-container:hover  .header-logo-tooltip{
+  visibility: visible;
+  opacity: 1;
+}
+.header-logo-tooltip::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent #3B1E54 transparent;
+}

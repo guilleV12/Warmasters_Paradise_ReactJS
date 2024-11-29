@@ -1,0 +1,16 @@
+@media (min-width: 1025px) {
+.main-navbar{
+  width: 17vw;
+}
+.navbar-top-container{
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#close-menu-container{
+  display: none;
+}
+}
